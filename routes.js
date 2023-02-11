@@ -37,7 +37,7 @@ router.post('/product', upload.single('image'), (req, res) => {
     }  
 })
 
-router.get('/product', function (req, res) {
+router.get('/profile', function (req, res) {
     var url = 'https://jsonplaceholder.typicode.com/users';
     
     request(url, function (error, response, body) {
